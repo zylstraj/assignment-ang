@@ -1,0 +1,27 @@
+{
+  "name": "assignment-ang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zylstraj/assignment-ang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zylstraj/assignment-ang/issues"
+  },
+  "homepage": "https://github.com/zylstraj/assignment-ang#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "webpack": "^1.12.14"
+  }
+}

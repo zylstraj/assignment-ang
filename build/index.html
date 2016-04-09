@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <html lang="en" data-ng-app="practiceApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <main data-ng-controller="practiceController as practice">
+    <input type="text" data-ng-model="practice.message"/>
+    <h1>{{practice.message}}</h1>
+    <button ng-click="practice.clearSearch()">Delete</button>
+    <!-- <button ng-click="clearSearch()">Delete</button> -->
+    </main>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
